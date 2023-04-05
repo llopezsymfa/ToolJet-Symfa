@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ToolJet/ToolJet/develop/plugins/schemas/operations.schema.json",
+  "title": "Symfa Auth datasource",
+  "description": "A schema defining Symfa Auth datasource",
+  "type": "api",
+  "defaults": {},
+  "properties": {
+    "operation": {
+      "label": "Operation",
+      "key": "operation",
+      "type": "dropdown-component-flip",
+      "description": "Select operation",
+      "list": [
+        {
+          "value": "login",
+          "name": "Login"
+        }
+      ]
+    },
+    "login": {
+      "email": {
+        "label": "Email",
+        "key": "email",
+        "type": "text",
+        "description": "Enter the email"
+      },
+      "password": {
+        "label": "Password",
+        "key": "password",
+        "type": "text",
+        "description": "Enter the email"
+      }
+    }
+  }
+}

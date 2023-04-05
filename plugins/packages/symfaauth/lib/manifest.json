@@ -1,0 +1,20 @@
+
+{
+  "$schema": "https://raw.githubusercontent.com/ToolJet/ToolJet/develop/plugins/schemas/manifest.schema.json",
+  "title": "Symfa Auth datasource",
+  "description": "A schema defining Symfa Auth datasource",
+  "type": "api",
+  "source": {
+    "name": "Symfa Auth",
+    "kind": "symfaauth",
+    "exposedVariables": {
+      "isLoading": false,
+      "data": {},
+      "rawData": {}
+    },
+    "options": {}
+  },
+  "defaults": {},
+  "properties": {},
+  "required": []
+}
